@@ -35,6 +35,7 @@ int main() {
 			if (cars.empty()) {
 				cout << "No cars to search" << endl;
 				goto start; //testing purpose
+				// break;
 			}
 			cout << "SELECT A CAR BY ITS INDEX" << endl;
 			cin >> findcar;
